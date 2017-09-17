@@ -25,7 +25,7 @@ import config
 if config.test:
     from mockdbhelper import MockDBHelper as DBHelper
 else:
-    from dbhelper import DBHelper
+    from DBHelper import DBHelper
 
 
 app = Flask(__name__)
